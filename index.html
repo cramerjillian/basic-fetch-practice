@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Basic Fetch Practice</title>
+</head>
+<body>
+    <header>
+        <h1>Users</h1>
+        <div class="btn-container">
+            <button onclick="fetchData()" id="btn-getUsers">Get All Users</button>
+            <button onclick="fetchDataUnder10()" id="btn-getUsersUnder10">Get Users Under 10 Years Experience</button>
+            <button onclick="resetData()" id="btn-reset">Reset</button>
+        </div>
+    </header>
+    <main id="user-container"></main>
+    <script src="./js/index.js"></script>
+</body>
+</html>

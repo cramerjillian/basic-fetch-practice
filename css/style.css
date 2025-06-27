@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #78dba2;
+    width: 100%;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+button {
+    font-size: medium;
+    width: 400px;
+    padding: 0.5em;
+}
+
+main {
+    margin: 1em;
+    width: 100%;
+}
+
+main > div {
+    text-align: left;
+    line-height: 4em;
+    border: 1px solid black;
+    padding: 1em 1em;
+    margin: 1em;
+}
+
+@media (min-width: 768px) {
+    .btn-container {
+        display: block;
+        gap: 1em;
+        margin: 1em 0;
+    }
+
+    button {
+        width: fit-content;
+        margin: 0.5em;
+    }
+}
